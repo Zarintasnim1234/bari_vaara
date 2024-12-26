@@ -171,7 +171,7 @@ This project is licensed under the MIT License.
 <div align="center">
 
 ## Contact
-For inquiries, please reach out to: [your-email@example.com](mailto:your-email@example.com)
+For inquiries, please reach out to: [Zarin](https://www.facebook.com/ztasnimdia)
 
 </div>
 
