@@ -1,6 +1,26 @@
+<div align="center">
+
 # House Rental Application
 
 Welcome to the House Rental Application! This Python-based program allows users to browse available houses and flats for rent, place bids, calculate rent payments, and visualize rent prices through graphical representations.
+
+## Features
+- **User Registration and Authentication**
+- **House/Flat Listings**
+- **Bidding System**
+- **Rent Payment Calculation**
+- **Graph Visualization of Rent Prices**
+- **User Data Storage (CSV)**
+
+---</div>
+
+<div align="center">
+    <img src="Dev_Files/s2.jpg" alt="Application Architecture" width="700">
+    <p><em>House Rental Application Architecture</em></p>
+</div>
+
+<div align="center">
+
 ## Directory Structure
 ```mermaid
 erDiagram
@@ -17,16 +37,8 @@ erDiagram
     FINANCE ||--|| RENT : calculates
 ```
 
----
-## Features
-- **User Registration and Authentication**
-- **House/Flat Listings**
-- **Bidding System**
-- **Rent Payment Calculation**
-- **Graph Visualization of Rent Prices**
-- **User Data Storage (CSV)**
-
----
+---</div>
+<div align="center">
 
 ## Table of Contents
 - [Installation](#installation)
@@ -38,7 +50,9 @@ erDiagram
 - [Saving User Data](#saving-user-data)
 - [Troubleshooting](#troubleshooting)
 
----
+---</div>
+
+<div align="center">
 
 ## Installation
 
@@ -64,7 +78,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
----
+---</div>
+
+<div align="center">
 
 ## Usage
 
@@ -77,7 +93,9 @@ python main.py
 2. **Choose from the menu** to view available houses, bid for rent, calculate payments, or visualize rent prices.
 3. **Exit** the application at any time.
 
----
+---</div>
+
+<div align="center">
 
 ## Dependencies
 - Python 3.7 or higher
@@ -89,7 +107,9 @@ To install dependencies:
 pip install matplotlib
 ```
 
----
+---</div>
+
+<div align="center">
 
 ## How to Run
 
@@ -97,7 +117,9 @@ pip install matplotlib
 2. Follow the prompts to register or log in.
 3. Use the menu to navigate the available features.
 
----
+---</div>
+
+<div align="center">
 
 ## Graph Visualization
 
@@ -106,14 +128,18 @@ To visualize rent prices by location:
 - Choose **"View Rent Graph"** from the menu.
 - A bar chart will display rent prices by different locations (Downtown, Suburbs, City Center).
 
----
+---</div>
+
+<div align="center">
 
 ## Saving User Data
 
 - User details are saved in `users.csv`.
 - Each time a user registers, their data is appended to the CSV file.
 
----
+---</div>
+
+<div align="center">
 
 ## Troubleshooting
 
@@ -126,17 +152,26 @@ pip install matplotlib
 - Ensure that you register first before trying to log in.
 - If authentication fails, check if the correct National ID and password are entered.
 
----
+---</div>
+
+<div align="center">
 
 ## Contributing
 Feel free to contribute by opening issues or submitting pull requests.
 
----
+---</div>
+
+<div align="center">
 
 ## License
 This project is licensed under the MIT License.
 
----
+---</div>
+
+<div align="center">
 
 ## Contact
-For inquiries, please reach out to: [Zarin](ztasnimdia@gmail.com)
+For inquiries, please reach out to: [your-email@example.com](mailto:your-email@example.com)
+
+</div>
+
