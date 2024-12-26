@@ -1,7 +1,23 @@
 # House Rental Application
 
 Welcome to the House Rental Application! This Python-based program allows users to browse available houses and flats for rent, place bids, calculate rent payments, and visualize rent prices through graphical representations.
+## Directory Structure
+```mermaid
+erDiagram
+    MAIN ||--|| RENT : imports
+    MAIN ||--|| USER : imports
+    MAIN ||--|| FINANCE : imports
+    MAIN ||--|| SECURITY : imports
+    MAIN ||--|| GRAPH : imports
+    MAIN ||--|| UTILS : imports
+    MAIN ||--|| DATA : imports
+    USER ||--|| CSV : stores
+    RENT ||--|| DATA : manages
+    SECURITY ||--|| CSV : authenticates
+    FINANCE ||--|| RENT : calculates
+```
 
+---
 ## Features
 - **User Registration and Authentication**
 - **House/Flat Listings**
@@ -46,24 +62,6 @@ source venv/bin/activate
 ### Step 3: Install Required Dependencies
 ```bash
 pip install -r requirements.txt
-```
-
----
-
-## Directory Structure
-```mermaid
-erDiagram
-    MAIN ||--|| RENT : imports
-    MAIN ||--|| USER : imports
-    MAIN ||--|| FINANCE : imports
-    MAIN ||--|| SECURITY : imports
-    MAIN ||--|| GRAPH : imports
-    MAIN ||--|| UTILS : imports
-    MAIN ||--|| DATA : imports
-    USER ||--|| CSV : stores
-    RENT ||--|| DATA : manages
-    SECURITY ||--|| CSV : authenticates
-    FINANCE ||--|| RENT : calculates
 ```
 
 ---
