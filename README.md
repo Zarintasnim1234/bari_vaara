@@ -51,18 +51,19 @@ pip install -r requirements.txt
 ---
 
 ## Directory Structure
-```
-/house-rental-app
-│
-├── main.py          # Entry point of the application
-├── rent.py          # Handles house/flat listings and bidding
-├── user.py          # Handles user registration and details
-├── finance.py       # Handles payment and rent calculation
-├── utils.py         # Utility functions for validation and formatting
-├── data.py          # Manages data storage and retrieval
-├── security.py      # User authentication and authorization
-├── graph.py         # Graph generation (using matplotlib)
-└── users.csv        # CSV file to store user data
+```mermaid
+erDiagram
+    MAIN ||--|| RENT : imports
+    MAIN ||--|| USER : imports
+    MAIN ||--|| FINANCE : imports
+    MAIN ||--|| SECURITY : imports
+    MAIN ||--|| GRAPH : imports
+    MAIN ||--|| UTILS : imports
+    MAIN ||--|| DATA : imports
+    USER ||--|| CSV : stores
+    RENT ||--|| DATA : manages
+    SECURITY ||--|| CSV : authenticates
+    FINANCE ||--|| RENT : calculates
 ```
 
 ---
@@ -140,5 +141,4 @@ This project is licensed under the MIT License.
 ---
 
 ## Contact
-For inquiries, please reach out to: [your-email@example.com](mailto:your-email@example.com)
-
+For inquiries, please reach out to: [Zarin](ztasnimdia@gmail.com)
